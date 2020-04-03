@@ -226,6 +226,13 @@ void configRegion(rc_mask RCZ) {
 			printf("Open rcz error: %X\n", open_err);
 
 		break;
+	case RCZ7:
+			open_err = St_Sigfox_Open_RCZ(RCZ7);
+			ST_RF_API_reduce_output_power(RCZ7_OUTPUT_POWER);
+			if(open_err != 0)
+				printf("Open rcz error: %X\n", open_err);
+
+			break;
 	default:
 		break;
 	}
@@ -312,13 +319,13 @@ void mcuConfig(void) {
 	/*			THIS VALUE CAN BE FOUND IN CREDENTIALS 						*/
 
 	ST_RF_API_set_freq_offset(sfxConfiguration.freqOffset);
-	printf("Freq Offset %d \n", sfxConfiguration.freqOffset);
+	printf("Freq Offset %d \n", (int32_t)sfxConfiguration.freqOffset);
 
 	/*			SET LBT OFFSET																		*/
 	/*			THIS VALUE CAN BE FOUND IN CREDENTIALS 						*/
 
 	ST_RF_API_set_lbt_thr_offset(sfxConfiguration.lbtOffset);
-	printf("LBT %d \n", sfxConfiguration.lbtOffset);
+	printf("LBT %d \n", (int32_t)sfxConfiguration.lbtOffset);
 
 	/*			SET RSSI OFFSET																		*/
 	/*			THIS VALUE CAN BE FOUND IN CREDENTIALS 						*/
