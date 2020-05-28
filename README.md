@@ -17,7 +17,7 @@ The HT32SX SiP uses an ARM M0+ Core powered by ST Microelectronics (STM32L052x8)
 
 In summary you'll find here:
 *  [Technical Documentation](https://github.com/htmicron/ht32sx/tree/documents/2.1)
-*  Examples - codes, aplication notes and design tips.
+*  [Examples](/applications) - codes, aplication notes and design tips.
 
 To clone this branch directly (hardware version 2.1, software version 2.0), use: 
 ```
