@@ -32,7 +32,7 @@ We have some applications that you can use to start developing your own solution
 
 | Application        | Brief                                                          |
 |:-------------------|:---------------------------------------------------------------|
-| [SigFox Push-Button](applications/Push_Button/) | Send a SigFox™ frame after a button is pressed |
+| [SigFox Push-Button](applications/Push_Button_RC2/) | Send a SigFox™ frame after a button is pressed |
 | [Generic_Push_Button](applications/Generic_Push_Button/) | Optimized Push_Button code example. Easily reconfigurable |
 
 <hr>
