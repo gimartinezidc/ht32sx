@@ -1,5 +1,3 @@
-# Hardware version 2.2 master branch
-
 ## HT32SX - HT Micron's Sigfox™ Monarch SiP
 
 <div align="center">
@@ -21,7 +19,7 @@ In summary you'll find here:
 *  [Technical Documentation](https://github.com/htmicron/ht32sx/tree/documents/2.2)
 *  [Examples](/applications) - codes, aplication notes and design tips.
 
-To clone this branch directly (hardware version 2.1, software version 2.0), use: 
+To clone this branch directly (hardware version 2.2, software version 1.0), use: 
 ```
 git clone --single-branch --branch release_h2.2_1.0 https://github.com/htmicron/ht32sx.git
 ```
@@ -34,8 +32,8 @@ We have some applications that you can use to start developing your own solution
 
 | Application        | Brief                                                          |
 |:-------------------|:---------------------------------------------------------------|
-| [SigFox Push-Button](firmware_applications/Push_Button/) | Send a SigFox™ frame after a button is pressed |
-| [Generic_Push_Button](firmware_applications/Generic_Push_Button/) | Optimized Push_Button code example. Easily reconfigurable |
+| [SigFox Push-Button](applications/Push_Button/) | Send a SigFox™ frame after a button is pressed |
+| [Generic_Push_Button](applications/Generic_Push_Button/) | Optimized Push_Button code example. Easily reconfigurable |
 
 <hr>
 
